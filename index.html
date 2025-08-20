@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Cotizador</title>
+</head>
+<body>
+
+    <div id="container">
+        <img src="undraw_bitcoin.svg" alt="">
+        <div id="coin-container">
+            <form action="" id="coin-form">
+                <div class="coin-input-container">
+                    <label for="coin">Elige tu Moneda</label>
+                    <select name="" id="coin" class="coin-input">
+                        <option selected disabled value="USD">Seleccione su Moneda</option>
+                        <option value="USD">Dólar Estadounidense (USD)</option>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="GBP">Libra Esterlina (GBP)</option>
+                        <option value="JPY">Yen Japonés (JPY)</option>
+                        <option value="CNY">Yuan Chino (CNY)</option>
+                        <option value="INR">Rupia India (INR)</option>
+                        <option value="AUD">Dólar Australiano (AUD)</option>
+                        <option value="RUB">Rublo Ruso (RUB)</option>
+                    </select>
+                </div>
+                <div class="coin-input-container">
+                    <label for="coin">Elige tu Criptomoneda</label>
+                        <select name="" id="cripto" class="coin-input">
+                        <option selected disabled value="BTC">Seleccione su Criptomoneda</option>
+                        <option value="BTC">Bitcoin (BTC)</option>
+                        <option value="ETH">Ethereum (ETH)</option>
+                        <option value="BNB">Binance Coin (BNB)</option>
+                        <option value="XRP">Ripple (XRP)</option>
+                        <option value="LTC">Litecoin (LTC)</option>
+                        <option value="DOT">Polkadot (DOT)</option>
+                        <option value="SOL">Solana (SOL)</option>
+                    </select>
+                </div>
+                <div class="coin-input-container">
+                    <label for="amount">Elige el Monto</label>
+                    <input type="text" id="amount" class="coin-input" placeholder="Monto">
+                </div>
+                <button id="form-btn" type="submit">Cotizar</button>
+            </form>
+            <div id="coin-info"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
