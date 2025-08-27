@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    background: linear-gradient(135deg, #202630 60%, #fcd535 100%);
+    background: #212730;
 }
 
 img {
@@ -20,7 +20,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    /* box-shadow: 0 8px 32px 0 #1f26875e; */
     border-radius: 1.5rem;
     background: rgba(32, 38, 48, 0.95);
     padding: 2rem;
