@@ -28,6 +28,10 @@ La aplicación Cotizador funciona de la siguiente manera:
 - Se utilizan gráficos SVG para mejorar la experiencia visual.
 - Todo el proceso se realiza en el navegador, sin necesidad de backend.
 
+## Fuente de datos (API)
+Este cotizador utiliza la API pública de [CoinDesk](https://developers.coindesk.com/) para obtener los precios y datos de criptomonedas en tiempo real.
+- Documentación oficial: [https://developers.coindesk.com/](https://developers.coindesk.com/)
+
 ## Autor
 - Iconos y gráficos: [undraw.co](https://undraw.co/)
 - Desarrollado por JRiveraCode
