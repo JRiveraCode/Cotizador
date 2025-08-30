@@ -166,4 +166,33 @@ img {
     }
 }
 
+#main-footer {
+    width: 100%;
+    background: linear-gradient(90deg, #202630 80%, #fcd535 100%);
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem 0 1.2rem 0;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 0 -2px 8px 0 rgba(252, 213, 53, 0.10);
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 100; */
+}
+
+#main-footer a {
+    color: #fcd535;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    transition: color 0.2s;
+}
+
+#main-footer a:hover {
+    color: #e0b32c;
+    text-decoration: underline;
+}
+
 
