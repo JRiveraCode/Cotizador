@@ -23,7 +23,7 @@ Este proyecto es una aplicación web sencilla para cotizar el valor de criptomon
 ## Detalles del funcionamiento
 La aplicación Cotizador funciona de la siguiente manera:
 - Al cargar la página, se obtiene una lista de criptomonedas populares mediante una API pública.
-- El usuario selecciona una criptomoneda y una moneda local (por ejemplo, USD o MXN).
+- El usuario selecciona una criptomoneda y una moneda local (por ejemplo, USD o EUR).
 - Al hacer clic en "Cotizar", la aplicación realiza una consulta a la API y muestra el precio actualizado en pantalla.
 - Se utilizan gráficos SVG para mejorar la experiencia visual.
 - Todo el proceso se realiza en el navegador, sin necesidad de backend.
